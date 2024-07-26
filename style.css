@@ -1,0 +1,280 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+
+}
+
+.brown{
+    color: #500000;
+
+
+}
+.nav{
+    width: 100vw;
+    height: 60px;
+    
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: #500000;
+    color: white;
+}
+
+.heading{
+    width: 35%;
+}
+
+.list-btn{
+    width: 65%;
+    display: flex;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.list-item-nav{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+        
+   
+    list-style: none;
+}
+
+
+.nav-btn{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+
+.list-item-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ .btn-1{
+    width: 150px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 0.904);
+    border: none;
+
+}
+.list-item2 li a h3{
+   font-size: x-large   ;
+}
+.btn-2{
+    width: 175px;
+    height: 47px;
+    background-color: #c7444496;
+    border: 1px solid rgba(252, 251, 255, 0.849);
+    color: white;
+   /* margin-right: 20px; */
+}
+
+/* nav end */
+
+.main-container{
+    width: 100vw;
+}
+.section-1{
+    margin: 20px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.img-sec img{
+    width: 17rem;
+}
+
+.img-sec{
+    width: 35%;
+   
+}
+
+
+
+.list-item2{
+    width: 65%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+.list-item2 a{
+    text-decoration: none;
+    color: black    ;
+}
+
+/* sec-1 end */
+
+
+.sec-2{
+    width: 100vw;
+    margin: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+  
+    width: 60vw;
+}
+
+.sec2-list{
+    margin-top: 100px;
+    width: 38%;
+    display: flex;
+    list-style: none;
+    align-items: start;
+    justify-content: space-around;
+    /* background-color: antiquewhite  ; */
+    
+}
+.sec2-list li a{
+    color: #500000;
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.left h1{
+    font-size: 50px;
+}
+.left p {
+    color: rgba(0, 0, 0, 0.579);
+}
+
+.left hr{
+    margin-top: 20px;
+    height: 16px;
+    width: 100px;
+    background-color: #500000d5;
+}
+
+.left .para{
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+
+}
+
+
+
+.right span{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #500000ca;
+   width: 80%;
+   margin-top: 20px;
+
+
+
+}
+
+.right{
+    height: 250px;
+    /* background-color: #7a6666; */
+    margin-bottom: 100px;
+    padding-left: 20px;
+    
+    border: 2px solid rgba(0, 0, 0, 0.175);
+   
+}
+
+
+.right p{
+    margin-top: 10px ;
+    
+   
+}
+.right hr{
+    width: 25px;
+    height: 4px;
+    background-color: gray;
+}
+.right-para{
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.sec-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #500000;
+    color: white;
+    text-decoration: underline;
+}
+
+.sec-3{
+    width: 100vw;
+    height: 70vh;
+    /* border: 2px solid black; */
+}
+
+.sec-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #500000;
+
+
+}
+
+.sec-3-right{
+    margin-right:80px ;
+    color: white;
+    font-size: large;
+    margin-bottom: 70px;
+    padding: 0px 50px;
+    
+}
+.sec-3-right a{
+    color: white;
+
+}   
+
+
+
+.sec-3-left{
+    margin-right:60px ;
+    color: white;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.sec-3-left a{
+    color: white;
+
+}   
+
+.cont-2{
+    margin-top: 40px;
+}
+
+.cont-4{
+    margin-top: 40px;
+}
